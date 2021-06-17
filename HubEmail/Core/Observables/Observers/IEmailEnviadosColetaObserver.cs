@@ -1,7 +1,7 @@
 ﻿using HubEmail.Core.Objetos;
 using System.Threading.Tasks;
 
-namespace HubEmail.Core.Observers
+namespace HubEmail.Core.Observables.Observers
 {
     public interface IEmailEnviadosColetaObserver
     {

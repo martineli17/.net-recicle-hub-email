@@ -1,5 +1,5 @@
 ﻿using HubEmail.Core.Objetos;
-using HubEmail.Core.Observers;
+using HubEmail.Core.Observables.Observers;
 using System;
 using System.Threading.Tasks;
 

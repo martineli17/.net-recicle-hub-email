@@ -1,6 +1,6 @@
 ﻿using HubEmail.Core.Objetos;
 using HubEmail.Core.Observables.Contratos;
-using HubEmail.Core.Observers;
+using HubEmail.Core.Observables.Observers;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

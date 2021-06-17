@@ -1,6 +1,6 @@
 ﻿using MongoDB.Bson;
 
-namespace Dominio
+namespace Aplicacao.Objetos
 {
     public class HubEntidade
     {

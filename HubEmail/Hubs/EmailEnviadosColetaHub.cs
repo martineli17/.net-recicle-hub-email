@@ -2,12 +2,14 @@
 using Dominio.Contratos;
 using HubEmail.Core.Contratos;
 using HubEmail.Core.Objetos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.SignalR;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HubEmail.Core
+namespace HubEmail.Hubs
 {
+    [Authorize]
     public class EmailEnviadosColetaHub : Hub, IEmailEnviadosColetaHub
     {
         private static IHubCallerClients _clients;
@@ -24,7 +26,6 @@ namespace HubEmail.Core
             _clients = Clients;
             await base.OnConnectedAsync();
         }
-
 
         public async Task OnNext(Email value)
         {

@@ -2,14 +2,13 @@
 using HubEmail.Core.Contratos;
 using HubEmail.Core.Objetos;
 using HubEmail.Core.Observables.Contratos;
-using Mensageria.Contratos;
-using Mensageria.Objetos;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using System;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Mensageria.Contratos;
+using Mensageria.Objetos;
 
 namespace HubEmail.Core.BackgroundServices
 {
