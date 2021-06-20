@@ -9,6 +9,5 @@ namespace Dominio.Contratos
     {
         Task AddAsync(HubEntidade entidade);
         Task<IReadOnlyList<HubEntidade>> GetAsync(Expression<Func<HubEntidade, bool>> filter);
-        Task DeleteAsync(HubEntidade entidade);
     }
 }
